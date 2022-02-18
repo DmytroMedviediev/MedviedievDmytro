@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета на зачисление в школу</title>
+      <style>
+        body {
+          background: url(https://loveopium.ru/content/2017/08/shkola/21.jpg) no-repeat;
+          -webkit-background-size: 100%;
+        }
+        h1 { 
+          text-align: center;
+          color: rgb(68, 87, 139);
+        }
+        p { 
+          font-size: large;
+          text-align: center;
+          color: rgb(255, 255, 255);
+        }
+        a {
+          color: white;
+        }
+        #user {
+          width: 40px;
+        }
+        .inputForm {   
+          -webkit-border-radius: 5px;
+        } 
+      </style>
+      <style type="text/css">
+        #centerLayer {
+          width: 500px;
+          margin: 0 auto;
+          border: 3px solid #5b6979;
+          border-radius: 20px/20px;
+          background: rgba(202, 225, 243, 0.8);
+          padding: 10px; 
+          text-align: left; 
+          font-size: large;
+        }
+      </style>
+</head>
+<body>
+  <header>
+      <h1>Анкета на зачисление ребенка в школу</h1>
+  </header>
+    <section id="centerLayer">
+      <label for="">Фамилия</label><br>
+        <input type="text" class="inputForm"><br>
+      <label for="">Имя</label><br>
+        <input type="text" class="inputForm"><br>
+      <label for="">Отчество</label><br>
+        <input type="text" class="inputForm"><br>
+      <label >Фото ребенка</label>
+        <input class="inputForm" type="file" accept=".png, .jpg, .jpeg">
+      <label for="">Индентификационный номер</label><br>
+        <input type="password" class="inputForm"><br>
+      <label for="">Дата рождения<br>
+        <input type="date" class="inputForm"><br>
+      <label for="">Полных лет</label>
+        <input type="number" class="inputForm"><br>
+      <label for="">Пол ребенка<br>мужской</label>
+        <input name="gender" type="radio" value="male">
+      <label>женский</label>
+        <input name="gender" type="radio" value="female"><br>
+      <label >Фото ребенка</label><br>
+        <input name="photo" type="file" accept=".png, .jpg, .jpeg"><br>
+      <label for="">Район проживания</label>
+        <select class="inputForm">
+          <option value="">      </option>
+          <option value="">Амур-Нижнеднепровский</option>
+          <option value="">Шевченковский</option>
+          <option value="">Соборный</option>
+          <option value="">Индустриальный</option>
+          <option value="">Центральный</option>
+          <option value="">Чечеловский</option>
+          <option value="">Новокодацкий</option>
+          <option value="">Самарский</option>
+        </select><br>
+      <label>Социальный статус ребенка</label><br>
+        <input type="checkbox"><label>имеет инвалидность</label><br>
+        <input type="checkbox"><label>многодетная семья</label><br>
+        <input type="checkbox"><label>неполная семья</label><br>
+        <input type="checkbox"><label>ребенок под опекой</label><br>
+        <input type="checkbox"><label>ребенок – сирота</label><br>
+        <input type="checkbox"><label>переселенцы</label><br>
+        <input type="checkbox"><label>ребенок участника боевых действий</label><br>
+      <label>Язык преподавания</label>
+        <select class="inputForm">
+          <option value="">Украинский</option>
+          <option value="">Русский</option>
+        </select><br>
+      <label for="">Ваш номер телефона</label><br>
+        <input class="inputForm" type="tel" id="" name="" placeholder="+3(___)_______" 
+        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+      <label for="email">Ваша электронная почта</label><br>
+        <input class="inputForm" type="email" id="email" name="email"><br>
+      <label for="">Допольнительно</label><br>
+        <textarea class="inputForm" name="" rows="5" cols="65">
+        </textarea><br>
+        <input type="checkbox">
+      <label for="age">Согласен(на) на обработку персональных данных</label><br>
+        <button type="button" onclick="alert('Спасибо!')">Отправить</button>
+        <input type="reset" value="Сбросить">
+    </section>
+  <footer>
+    <p>
+      <a href="mailto:topschool@gmail.com"> Наша почта </a><br>
+      <a href="telto:+380501234567"> Наш телефон </a>
+    </p>
+  </footer>
+</body>
+</html>
