@@ -1,70 +1,72 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мое портфолио</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="style/style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-      <h1>Портфолио Дмитрия Медведева</h1>
-    </header>
-    <nav>
-      <h3>
-          <a href="#myself">О себе</a>
-          <a href="#education">Образование</a>
-          <a href="#exp">Опыт работы</a>
-          <a href="#projects">Проекты</a>
-          <a href="#contacts">Контакты</a>
-      </h3>
-    </nav>
-    <aside id="contacts" style = "float:left; width:170px; height:950px;">
-		  <img src="./images/avatar.jpg" width="170" height="170" alt="avatar">
-    </aside>
-    <section id="myself">
-      <h2>О себе</h2>
-        <p><i>
-          Родился в 1993 году в городе Павлограде.<br>
-          В школьные годы увлекался боксом и футболом. <br>
-          На данный момент увлекаюсь чтением книг, <br>
-          настольными играми и времяпровождением с близкими людьми.
-        </i></p>
-    </section>    
-    <section id="education">
-      <h2>Образование</h2>
-        <p><i><b>2010</b> - окончил Павлоградский городской лицей</p>
-        <p><b>2010</b> - поступил в Днепропетровский национальный университет им. Олеся Гончара <br> 
-          (факультет психологии, кафедра педагогики и специльного образования)</p>
-        <p><b>2015</b> - окончил Днепропетровский национальный университет им. Олеся Гончара<br> 
-          (факультет психологии, кафедра педагогики и специльного образования)</i></p>
-    </section>
-    <section id="exp">
-      <h2>Опыт работы</h2>
-        <p><i><b>2013-2015</b> - воспитатель в КЗО "БНРЦ "Зоряний" ДОР </p>
-        <p><b>2015 - 2022</b> - учитель начальных классов в КЗО "БНРЦ "Зоряний" ДОР </i></p>
-    </section>  
-    <section id="projects">
-      <h2>Проекты</h2>
-          <a href="./projects/anketa.html" target="_blank">
-            <img width="300" src="./images/anketa.jpg" alt="questionary"></a>
-            <figcaption><a href="./projects/anketa.html" target="_blank">
-              Анкета на зачисление ребенка в школу</a></figcaption><br>
-          <a href="./projects/tablitsa.html" target="_blank">
-            <img width="300" src="./images/tablitsa.jpg" alt="table"></a>
-            <figcaption><a href="./projects/tablitsa.html " target="_blank">
-              Таблица поступивших учеников</a></figcaption>
-    </section>
-    <section id="contacts">
-      <h2>Контакты</h2>
-        <p><i>
-          <a href="mailto:dmy.medvedev@gmail.com">Электронная почта</a> <br>
-          <a href="telto:+380509614277">Контактный телефон</a></i>
-        </p>
-    </section>
-    <footer>
-      <p>
-        Создано в 2022 году
-      </p>
-    </footer>
+    <div class="photo">
+      <img src="./images/lecter.jpg" class="photo" alt="photo">
+    </div>
+    <div class="myself">
+      <span class="heading shadowtext">Дмитрий Александрович Медведев</span><br>
+      <span>
+        Родился в 1993 году в городе Павлограде. <br>
+        Окончил Днепропетровский национальный университет им. Олеся Гончара 
+        (факультет психологии, кафедра педагогики и специльного образования). <br>
+        Работаю учителем начальных классов в КЗО "БНРЦ "Зоряний" ДОР.
+      </span>
+    </div>
+    <div class="pnc">
+      <div class="projects">
+        <span class="heading shadowtext">ПРОЕКТЫ</span><br>
+        <div class="ant"><a href="./projects/anketa.html" target="_blank">
+          <img width="195" src="./images/anketa.jpg" alt="form"></a><br>
+          <figcaption><a href="./projects/anketa.html" target="_blank">
+            Анкета</a></figcaption></div>
+         <div class="ant"><a href="./projects/tablitsa.html" target="_blank">
+          <img width="195" src="./images/tablitsa.jpg" alt="table"></a><br>
+          <figcaption><a href="./projects/tablitsa.html " target="_blank">
+            Форма</a></figcaption></div>
+      </div>
+      <div class="certificates">
+        <span class="heading shadowtext">СЕРТИФИКАТЫ</span>
+      </div>
+    </div>
+    <div>
+    <div class="skills">
+      <div class="shadowtext heading">НАВЫКИ</div>
+      <div class="box-left">
+        <span class="inline"><img src="./images/logo/html5.png" width="20px" alt=""> HTML5</span>
+        <span class="inline"><img src="./images/logo/js.png" width="20px" alt=""> JavaScript</span>
+      </div>
+      <div class="box-left">
+        <span class="inline"><img src="./images/logo/css3.png" width="20px" alt=""> CSS3</span>
+        <span class="inline"><img src="./images/logo/rjs.png" width="20px" alt=""> React.js</span>
+      </div>
+      <div class="box-left">
+        <span class="inline"><img src="./images/logo/git.png" width="20px" alt=""> GIT</span>
+        <span class="inline"><img src="./images/logo/njs.png" width="20px" alt=""> Node.js</span>
+      </div>
+      </div>
+      <div class="box-right">
+        <span class="heading shadowtext">КОНТАКТЫ</span>
+        <div>
+          <span class="decor"><img src="./images/contacts/tg.png" width="20" alt="">@dmi_medvedev</span><br>
+          <span class="decor"><img src="./images/contacts/gmail.png" width="20" alt="">dmy.medvedev@gmail.com</span><br>
+          <span class="decor"><img src="./images/contacts/whats.png" width="20" alt="">+380509614277</span><br>
+          <span class="decor"><img src="./images/contacts/inst.png" width="20" alt="">@dmy.medvedev</span><br>
+        </div>
+      </div>
+    </div>
+    <div class="buttonright">
+      <img src="./images/buttonright.png" width="50" alt="right">
+    </div>
+    <div class="buttonleft">
+      <img src="./images/buttonleft.png" width="50" alt="left">
+    </div>
+</div>
 </body>
 </html>

@@ -1,0 +1,128 @@
+body {
+  background-image:url(../images/background.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: 120%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: center;
+  color: rgb(255, 255, 255);
+}
+
+.heading {
+  font-weight: bold;
+}
+.shadowtext {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 26, 255);
+    color: white;
+}
+
+.photo {
+  margin: 1% auto;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.myself {
+  background-color: rgba(84, 172, 199, 0.8);
+  text-align: center;
+  width: 84%;
+  margin: 1% auto;
+  padding: 10px 10px 10px 10px; /* top right bottom left */
+  border: 2px solid rgb(91, 105, 121);
+  border-radius: 20px/20px; 
+}
+
+.pnc {
+  display: block;
+  margin: 1% auto;
+}
+
+.projects {
+  display: inline-block;
+  text-align: center;
+  height: 20%;
+  width: 610px;
+  vertical-align: top;
+  margin: 10px 10px 12px 7%;
+  padding: 10px;
+  background-color: rgb(84, 172, 199, 0.8);
+  border: 2px solid rgb(91, 105, 121);
+  border-radius: 20px/20px; 
+}
+
+.ant {
+  display: inline-block;
+  margin: 1% 10px 0 10px;
+}
+
+.certificates {
+  display: inline-block; 
+  text-align: center;
+  height: 20%;
+  width: 610px;
+  vertical-align: top;
+  margin: 10px 7% 10px 10px;
+  padding: 10px;
+  background-color: rgb(84, 172, 199, 0.8);
+  border: 2px solid rgb(91, 105, 121);
+  border-radius: 20px/20px;
+}
+
+.project {
+  display: inline-block;
+}
+
+.skills {
+  display: inline-block;
+  text-align: center;
+  height: 10%;
+  width: 610px;
+  vertical-align: top;
+  margin: 0px 10px 10px 7%;
+  padding: 0 10px 10px 10px;
+}
+
+.inline {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgb(128, 128, 128);  
+  color: rgb(240, 248, 255);
+  font-size: 20px;
+  height: 15%;
+  width: 40%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 10px 10px 10px 10px; /* top right bottom left */
+  border: 2px solid rgb(91, 105, 121);
+  border-radius: 20px/20px; 
+}
+
+.box-right {
+  display: inline-block; 
+  text-align: center;
+  height: 20%;
+  width: 610px;
+  vertical-align: top;
+  margin: 10px 7% 10px 10px;
+  padding: 10px;
+  background-color: rgb(84, 172, 199, 0.8);
+  border: 2px solid rgb(91, 105, 121);
+  border-radius: 20px/20px;
+}
+
+.decor {
+  text-decoration: underline;
+}
+
+.buttonright {
+  position: absolute;
+  right: 95;
+  top: 425;
+}
+
+.buttonleft {
+  position: absolute;
+  left: 95;
+  top: 425;
+}
